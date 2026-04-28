@@ -2,7 +2,7 @@
 # Tables
 *************************
 
-Tables include in this solution include the following: 
+#### Tables include in this solution include the following: 
 - Ticket (Fact)
 - Staff (Dim)
 - Agents (Dim)
@@ -51,7 +51,7 @@ Tables include in this solution include the following:
   **LastName text**                         - Last Name of staff making request
 
 ## Agents
-**This holds the data for the agents, they are the first assess issues on ticket with a view to resolve if possible, if the problem is within their scope of duties, they resolve but if not, they escalate to Technical Agents.**
+#### This holds the data for the agents, they are the first assess issues on ticket with a view to resolve if possible, if the problem is within their scope of duties, they resolve but if not, they escalate to Technical Agents.**
 
   **Agent_ID text [primary key]**       
   
@@ -71,16 +71,16 @@ Tables include in this solution include the following:
 
 
 ## Problem Category
-**It is assumed that all issues that could be raised in tickets are categorized. This could be help analytics.** 
+#### It is assumed that all issues that could be raised in tickets are categorized. This could be help analytics.** 
  
   **ProblemCategoryID text [primary key]**
 
   **ProblemCategory text**
 
 ## Escalation Table
-**As earlier mentioned, when issues are not within the scope of the agent, it is escalated to the Tech. Agents hence the Escalation table holds Escalated tickets only. **
+#### As earlier mentioned, when issues are not within the scope of the agent, it is escalated to the Tech. Agents hence the Escalation table holds Escalated tickets only. **
 
-Escalation 
+ 
   **Ticket_ID text [primary key]** -     -   Ticket_iD
   
   **ResolvedStartDate datetime**        -    Date when it was escalated
@@ -104,4 +104,5 @@ Escalation
   **Resolved bool**                         Yes/No, if it is resolved
   
   **ResolvedDate timestamp**       -         If Yes, timestamp is generated
+
   **AdditionalCommentorRecommendation text** -     Additonal comments as may be given by Technical Agent
