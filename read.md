@@ -1,3 +1,16 @@
+# Business Scenario 
+TechCare Solutions receives 200+ IT support requests weekly via email and phone. No centralised system exists, leading to missed SLAs, duplicated work and frustrated staff.
+
+# Business Requirements
+- Centralized ticket logging system 
+-	Automatic ticket creation from email or by logging into the app by the customer
+-	Ticket categorization and prioritization 
+-	SLA tracking and alerts 
+-	Ticket assignment to Agents (manual & automatic) 
+-	Status tracking (Open, In Progress, Closed) for staff. 
+-	Notification system (email or Teams) 
+-	Dashboards for all roles i.e. Staff, Agents and Tech Agents
+
 *************************
 # Tables
 *************************
