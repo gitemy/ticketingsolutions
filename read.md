@@ -124,4 +124,4 @@ TechCare Solutions receives 200+ IT support requests weekly via email and phone.
 *************************
 # ERD DIAGRAM
 *************************
-![image alt](C:\Users\EmmanuelAnamelechi\Downloads\TicketingSolutions-Assignment1\erd diagram.png)
+![image alt](https://github.com/gitemy/ticketingsolutions/blob/dd66a075a38af395dac1ee77b2894bec8ecc3fe8/erd%20diagram.png)
