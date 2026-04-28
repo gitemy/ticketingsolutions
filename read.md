@@ -119,3 +119,8 @@ TechCare Solutions receives 200+ IT support requests weekly via email and phone.
   **ResolvedDate timestamp**       -         If Yes, timestamp is generated
 
   **AdditionalCommentorRecommendation text** -     Additonal comments as may be given by Technical Agent
+
+  
+*************************
+# ERD DIAGRAM
+*************************
