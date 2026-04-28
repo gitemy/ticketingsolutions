@@ -3,12 +3,12 @@
 *************************
 
 Tables include in this solution include the following: 
-Ticket (Fact)
-Staff (Dim)
-Agents (Dim)
-Problem Category (Dim)
-Escalation (Fact)
-Tech_Agents (Dim)
+- Ticket (Fact)
+- Staff (Dim)
+- Agents (Dim)
+- Problem Category (Dim)
+- Escalation (Fact)
+- Tech_Agents (Dim)
 
 *************************
 # Columns
