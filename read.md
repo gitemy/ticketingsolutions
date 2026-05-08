@@ -22,6 +22,12 @@ TechCare Solutions receives 200+ IT support requests weekly via email and phone.
 | Requirement         | Acceptance Criteria                             |
 | ---                 | ---                                             |
 | Ticket Creation     | User can log a ticket via the app or email      | 
+| Ticket Assignment   | Tickets can be automatically assigned to agents |
+| SLA Tracking        | System flags over due tickets                   |  
+| Status Update       | Agents can update ticket status                 |
+| Notifications       | User receive notification on updates as ticket/requests moves from stage to stage      |
+| Manager View        | Manager can view metrics for Agents and Tech Agents      | 
+| Audit Trail         | All updates are logged with timestamps         |   
 
 *************************
 # Tables
@@ -137,3 +143,14 @@ TechCare Solutions receives 200+ IT support requests weekly via email and phone.
 # ERD DIAGRAM
 *************************
 ![image alt](https://github.com/gitemy/ticketingsolutions/blob/dd66a075a38af395dac1ee77b2894bec8ecc3fe8/erd%20diagram.png)
+
+
+*************************
+# Power Platform Tool 
+*************************
+Dataverse
+
+Model Driven App
+
+Power Automate
+
