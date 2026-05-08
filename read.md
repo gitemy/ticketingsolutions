@@ -37,9 +37,10 @@ TechCare Solutions receives 200+ IT support requests weekly via email and phone.
 - Ticket (Fact)
 - Staff (Dim)
 - Agents (Dim)
+- Tech_Agents (Dim)
 - Problem Category (Dim)
 - Escalation (Fact)
-- Tech_Agents (Dim)
+
 
 *************************
 # Columns
@@ -100,6 +101,25 @@ TechCare Solutions receives 200+ IT support requests weekly via email and phone.
   
   **Agent_Rating integer**
 
+
+## Tech_Agents
+#### This holds the data for the tech-agents, they handle ticket escalated by the agents
+
+  **Tech_Agent_ID text [primary key]**       
+  
+  **FirstName text**
+  
+  **LastName text**
+  
+  **Employee_ID text**
+  
+  **AreaOfExpertise text**
+
+  **NoOfTicketSolved integer**
+  
+  **AverageTimeTaking time**
+  
+  **Agent_Rating integer**
 
 ## Problem Category
 #### It is assumed that all issues that could be raised in tickets are categorized. This could be help analytics.** 
