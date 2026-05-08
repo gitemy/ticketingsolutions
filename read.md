@@ -11,10 +11,17 @@ TechCare Solutions receives 200+ IT support requests weekly via email and phone.
 -	Notification system (email or Teams) 
 -	Dashboards for all roles i.e. Staff, Agents and Tech Agents
 
+
 # Roles in the Solution
 - Staff
 - Support Agents
 - Technical Agents
+
+# Acceptance Criteria
+
+| Requirement         | Acceptance Criteria                             |
+| ---                 | ---                                             |
+| Ticket Creation     | User can log a ticket via the app or email      | 
 
 *************************
 # Tables
